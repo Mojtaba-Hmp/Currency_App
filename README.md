@@ -1,0 +1,1 @@
+Stay updated with the latest exchange rates! This Android app lets you easily check the price of various currencies in Iranian Toman, with a clean Material Design interface and real-time data fetched from a reliable API. Built with Kotlin, Retrofit, and ViewBinding for a smooth and modern user experience,featured with Dark Mode.
