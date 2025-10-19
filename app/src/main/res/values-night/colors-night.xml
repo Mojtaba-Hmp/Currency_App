@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FDFDFD</color>
+    <color name="background">#212121</color>
+    <color name="text">#FCF5FD</color>
+    <color name="card">#17000000</color>
+    <color name="priceText">#D5B35B</color>
+</resources>
