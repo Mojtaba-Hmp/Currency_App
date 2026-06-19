@@ -27,19 +27,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
-
         binding.tabLayout.getTabAt(1)?.select()
-
-//        binding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
-//            override fun onTabSelected(tab: TabLayout.Tab?) {
-//                binding.viewPager.currentItem = tab!!.position
-//            }
-//
-//            override fun onTabUnselected(tab: TabLayout.Tab?) {}
-//            override fun onTabReselected(tab: TabLayout.Tab?) {}
-//
-//        })
 
         binding.viewPager.adapter = ViewPagerAdapter(this)
 
@@ -50,19 +38,7 @@ class MainActivity : AppCompatActivity() {
             tab.customView = customView
         }.attach()
 
-
         binding.viewPager.currentItem = 1
-
-//        binding.viewPager.registerOnPageChangeCallback(object : OnPageChangeCallback() {
-//            override fun onPageSelected(position: Int) {
-//                binding.tabLayout.getTabAt(position)?.select()
-//            }
-//            })
-
-
-//        supportFragmentManager.beginTransaction()
-//            .replace(R.id.viewPager, DollarFragment())
-//            .commit()
 
     }
 }
